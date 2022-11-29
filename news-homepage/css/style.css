@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+body, html{
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    padding: 4em 8em;
+}
+
+nav .nav-link{
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+}
+
+nav .nav-link:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+
+/*Media querrys*/
+
+@media screen and (max-width: 570px) {
+    main{
+        padding: 2em;
+    }
+}
