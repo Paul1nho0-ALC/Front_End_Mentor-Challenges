@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap');
+
+body{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+
+/*Navbar*/
+
+ul li .nav-link{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    color: hsl(230, 29%, 20%);
+    margin-left: 3em;
+    text-transform: uppercase;
+}
+
+ul li .nav-link:hover{
+    color: hsl(230, 29%, 20%);
+    text-decoration: underline;
+}
+
+ul li{
+    display: flex;
+}
+
+.navbar-toggler{
+   border: none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.offcavas-header button{
+    outline: none;
+    border: none;
+}
+
+ul li .login-link{
+    color: hsl(230, 11%, 40%);
+}
+
+ul li .login-link:hover{
+    color: hsl(230, 11%, 40%);
+    text-decoration: underline;
+}
+
+.circle{
+    align-self: center;
+    display: block;
+    margin-left: 2.5em;
+    width: 8px;
+    height: 8px;
+    background: hsl(231, 7%, 65%);
+    border-radius: 50%;
+}
