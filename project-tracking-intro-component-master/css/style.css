@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
@@ -60,6 +64,52 @@ ul li .login-link:hover{
     border-radius: 50%;
 }
 
+/*Navbar Mobile*/
+#navbar-mobile{
+    width: 100%;
+    left: 0;
+    margin-top: 20em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar-mobile-nav{
+    background-color: #fff;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.6);
+    padding: 1em 2em;
+}
+
+#navbar-mobile ul li .nav-link{
+    width: 100%;
+    margin-left: 0;
+}
+
+#navbar-mobile .login-link{
+    margin-top: .8em;
+}
+
+.navbar-mobile-button{
+    display: none;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.bb-custom{
+    border-bottom: 2px solid hsl(207, 33%, 95%);
+    padding: 0 5em;
+}
+
+.closed{
+    display: none;
+}
+
+.open{
+    display: flex;
+}
+
 /*MAIN*/
 
 main{
@@ -89,14 +139,23 @@ main{
 /*Extra small*/
 @media screen and (min-width: 0px) and (max-width: 576px){
     #illustration{
-        width: 600px;
+        margin-left: 30%;
+        width: 480px;
+    }
+
+    .navbar-mobile-button{
+        display: block;
     }
 }
 
 /*Small*/
 @media screen and (min-width: 577px) and (max-width: 768px){
     #illustration{
-        width: 600px;
+        width: 500px;
+    }
+
+    .navbar-mobile-button{
+        display: block;
     }
 }
 
