@@ -17,8 +17,6 @@
 </head>
 <body>
 
-  <div id="bg-round"></div>
-
   <header class="navbar">
     <div class="container pt-5 position-relative">
 
@@ -70,38 +68,38 @@
     </div>
   </header>  
 
-  <main class="d-flex flex-column flex-sm-row">
+  <div id="bg-round"></div>
 
-    <section class="w-50">
+  <main class="d-flex flex-column-reverse flex-md-row">
 
-      <p class="p-bg-black">New</p>
+    <section id="left-content" class="d-flex flex-column">
 
-      <p></p>
+      <div class="content">
+        <div class="d-flex">
+          <p class="p-bg-black">New</p>
+          <p class="ms-3 text-uppercase" style="font-family: 'Barlow', sans-serif; font-weight: 400;">Monograph Dashboard</p>
+        </div>
 
+        <h1 class="display-6">Powerful insights into your team</h1>
+
+        <p style="font-size: 1.1em; width: 300px; margin-top: 1em; margin-bottom: 1em;">Project planning and time tracking for agile teams</p>
+
+        <div class="mt-3">
+          <a id="red-btn" class="me-3 text-uppercase" href="#">Schedule a demo</a>
+          <a id="transparent-btn" href="">to see a preview</a>
+        </div>
+      </div>
+      
     </section>
 
-    <section class="w-50">
+    <section id="illustration-section" class="w-50">
       <img id="illustration" src="images/illustration-devices.svg" alt="Ilustration">
     </section>
 
   </main>
   
-
   
-  Monograph Dashboard
-
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
-
-  Schedule a demo
-  to see a live preview
   
-  <footer class="position-absolute bottom-0 w-100 d-flex align-items-center justify-content-center">
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 
   <script src="js/script.js"></script>
 
