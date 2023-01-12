@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="container">
+
+      <h4 id="adv-id">Advice</h1>
+
+        <p id="advice"></p>
+
+        <img src="images/pattern-divider-desktop.svg" alt="Divider">
+
+    </div>
+
+    <button onclick="fetch_api_data()"><img src="images/icon-dice.svg" alt="dice_button"></button>
+
+  </div>
+
+  <div style="position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%);" class="attribution">
+    <span style="color: hsl(217, 19%, 38%);">Challenge by</span> <a style="color: hsl(193, 38%, 86%);"
+      href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    <span style="color: hsl(217, 19%, 38%);">Coded by</span> <a style=" color: hsl(193, 38%, 86%);"
+      href="https://www.linkedin.com/in/paulo-alc%C3%A2ntara-a2177723b/">Paulo Alcântara</a>.
+  </div>
+
+
+  <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
